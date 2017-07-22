@@ -21,3 +21,6 @@ testTS
 |---package.json
 |---tsconfig.json
 ```
+
+## 参考
+[用TypeScript开发爬虫程序](http://cnodejs.org/topic/5810a09db37ee8fb3397883e)
