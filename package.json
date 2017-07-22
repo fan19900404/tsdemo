@@ -1,0 +1,29 @@
+{
+  "name": "tsdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\"",
+    "lite": "lite-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fan19900404/tsdemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fan19900404/tsdemo/issues"
+  },
+  "homepage": "https://github.com/fan19900404/tsdemo#readme",
+  "dependencies": {
+    "@types/cheerio": "^0.22.2",
+    "@types/superagent": "^3.5.3",
+    "cheerio": "^1.0.0-rc.2",
+    "superagent": "^3.5.2",
+    "typescript": "^2.4.2"
+  }
+}
